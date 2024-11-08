@@ -1,0 +1,99 @@
+@import "CSS/css/footer/_variable.scss";
+.site-footer {
+    padding: 128px 0px;
+    .row {
+        display: flex;
+        flex-direction: row;
+        margin: 0px 180px;
+        .left {
+            max-width: 75%;
+            padding: 0px 15px;
+            display: flex;
+            text-align: left;
+            font-size: 16px;
+            color: $footercolor;
+            .heading {
+                max-width: 41.66667%;
+                padding-right: 15px;
+                padding-left: 15px;
+                h2 {
+                    font-size: 16px;
+                    color:$textcolor;
+                    text-transform: uppercase;
+                    font-weight: 900;
+                    margin-bottom: 24px;
+                }
+            }
+            .list {
+                max-width: 25%;
+                padding-right: 15px;
+                padding-left: 15px;
+                h2 {
+                    font-size: 16px;
+                    color:$textcolor;
+                    text-transform: uppercase;
+                    font-weight: 900;
+                    margin-bottom: 24px;
+                }
+                a {
+                    text-decoration: none;
+                    color: $footercolor;
+                    margin-bottom: 10px;
+                }
+            }
+            .icon {
+                max-width: 25%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-left: 24px;
+                h2 {
+                    font-size: 16px;
+                    color:$textcolor;
+                    text-transform: uppercase;
+                    font-weight: 900;
+                    margin-bottom: 24px;
+                }
+                a{
+                    color: $footercolor;
+                    font-size: 24px;
+                }
+            }
+        }
+        .ml-auto {
+            max-width: 25%;
+            padding: 0px 15px;
+            h2 {
+                font-size: 16px;
+                color:$textcolor;
+                text-transform: uppercase;
+                font-weight: 900;
+                margin-bottom: 24px;
+            }
+            h4 {
+                margin-bottom: 8px;
+                font-weight: 500;
+                line-height: 1.2;
+                font-size: 20px;
+                color:$textcolor;
+            }
+            strong {
+                color :$textcolor;
+                margin-bottom: 16px;
+                line-height: 1.7;
+            }
+            a.btn {
+                border : solid 2px $textcolor;
+                background-color: $textcolor;
+                color: $textcolorone;
+                text-transform: uppercase;
+                font-size: 12px;
+                padding: 6px 20px;
+                font-weight: 900;
+                &:hover {
+                    background-color: $textcolorone;
+                    color: $textcolor;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+@import "CSS/css/site-block/_variable.scss";
+.site-blocks-cover {
+    background-attachment: fixed;
+    background-color:$bgcolor ;
+    background-size:cover;
+    .justify-content-center {
+        margin-left: 180px;
+        .mb-4 {
+            padding-left: 15px;
+            padding-right: 15px;
+            width:50%;
+            h1 {
+                padding-top: 100px;
+                color: $bgcolorone;
+                font-size:80px;
+                font-weight:800;
+                font-family: $fontfamily;
+            }
+            p {
+                color:$textcolorone;
+                font-size:20px;
+                font-weight:300;
+                line-height:1.5;
+            }
+            div {
+                padding-bottom: 200px;
+                a {
+                    font-size: 12px;
+                    font-weight:900;
+                    text-align: center;
+                    white-space: nowrap;
+                    vertical-align: middle;
+                    border:solid 2px $bgcolorone;
+                    text-transform: uppercase;
+                    margin: 0px 4px 0px 0px;
+                    padding: 6px 20px;
+                    font-weight: 700;  
+                }
+            }
+        }
+    }
+}

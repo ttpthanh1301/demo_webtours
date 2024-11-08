@@ -1,0 +1,75 @@
+@import "CSS/css/contact-section/_variable.scss";
+#contact-section {
+    background-color: $bgcolortwo;
+    padding:80px 0px;
+    .mb-5 {
+        .text-center {
+            h3 {
+                font-size: 13px;
+                margin-bottom: 8px;
+                color: $h3color;
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: .2em;
+            }
+            h2 {
+                font-size: 40px;
+                margin-bottom: 16px;
+                color :$textcolor;
+                line-height: 1.2;
+                font-weight: 900;
+            }
+        }
+    }
+    .justify-content-center {
+        display:flex;
+        margin:auto ;
+        .mb-5 {
+            width: 40%;
+            .p-5 {
+                padding:48px;
+                .h4 {
+                    font-size: 24px;
+                    color: $textcolor;
+                    margin-bottom: 48px;
+                    font-weight: 400;
+                    line-height: 1.2;
+                }
+                .form-group {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    .mb-3 {
+                        max-width: 50%;
+                        width: 100%;
+                        min-height: 1px;
+                        padding-right: 15px;
+                    }
+                    .mb-md-0 {
+                        max-width: 50%;
+                        width: 100%;
+                        min-height: 1px;
+                        padding-left: 15px;
+                    }
+                    .form {
+                        width: 100%;
+                        min-height: 1px;
+                        .btn {
+                            margin-top: 16px;
+                            border: solid 2px $textcolor;
+                            color: $bgcolorone;
+                            background-color: $textcolor;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            font-weight: 900;
+                            &:hover {
+                                color: $textcolor;
+                                background-color: $bgcolorone;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

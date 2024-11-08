@@ -1,0 +1,43 @@
+@import "variablee.scss";
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*menu*/
+@import "CSS/css/menu/_variable.scss";
+@import "CSS/css/menu/_mixin.scss";
+/*header*/
+@import "CSS/css/header/_mixin.scss";
+@import "CSS/css/header/_variable.scss";
+/*site-block*/
+@import "CSS/css/site-block/_mixin.scss";
+@import "CSS/css/site-block/_variable.scss";
+/*site-section*/
+@import "CSS/css/site-section/_mixin.scss";
+@import "CSS/css/site-section/_variable.scss";
+//inner-page-cover
+@import "CSS/css/inner-page-cover/_mixin.scss";
+@import "CSS/css/inner-page-cover/_variable.scss";
+//bg-light
+@import "CSS/css/bg-light/_mixin.scss";
+@import "CSS/css/bg-light/_variable.scss";
+// about-section
+@import "CSS/css/about-section/_mixin.scss";
+@import "CSS/css/about-section/_variable.scss";
+// team-section
+@import "CSS/css/team-section/_mixin.scss";
+@import "CSS/css/team-section/_variable.scss";
+// site-blocks-cover
+@import "CSS/css/site-blocks-cover/_mixin.scss";
+@import "CSS/css/site-blocks-cover/_variable.scss";
+// testimonials-section
+@import "CSS/css/testimonials-section/_mixin.scss";
+@import "CSS/css/testimonials-section/_variable.scss";
+// blog-section
+@import "CSS/css/blog-section/_mixin.scss";
+@import "CSS/css/blog-section/_variable.scss";
+// contact-section
+@import "CSS/css/contact-section/_mixin.scss";
+@import "CSS/css/contact-section/_variable.scss";
+// foooter
+@import "CSS/css/footer/_mixin.scss";
+@import "CSS/css/footer/_variable.scss";

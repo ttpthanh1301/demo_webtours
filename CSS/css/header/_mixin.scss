@@ -1,0 +1,44 @@
+@import url("header.scss/_variable.scss");
+
+header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    .nav-bar-header {
+        background-color: $bgcolorone;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-self: center;
+        margin-left:40px;
+        h1 {
+            color:$textcolor;
+            font-size:40px;
+            font-family:$fontfamily;
+            font-weight:700;
+            a {
+                text-decoration: none;
+                span {
+                    color:$colorhover!important;
+                }
+            }
+        }
+        nav {
+            ul {
+                
+                li {
+                    display:inline-block;
+                    margin-right: 36px;
+                    a {
+                        text-decoration: none;
+                        padding-top: 25px;
+                        font-size:16px;
+                        &:hover {
+                            color: $colorhover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+@import "CSS/css/blog-section/_variable.scss";
+#blog-section {
+    padding:80px 0px;
+    .mb-5 {
+        .text-center {
+            h3 {
+                font-size: 13px;
+                margin-bottom: 8px;
+                color: $h3color;
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: .2em;
+            }
+            h2 {
+                font-size: 40px;
+                margin-bottom: 16px;
+                color :$textcolor;
+                line-height: 1.2;
+                font-weight: 900;
+            }
+        }
+    }
+    .blog {
+        display: flex;
+        margin-left: 180px;
+        margin-right: 180px;
+        .mb-lg-4 {
+            padding: 0px 15px;
+            .h-entry{
+                text-align: left;
+                img {
+                    width: 100% !important;
+                    margin-bottom: 30px;
+                }
+                a.text-black {
+                    color:$textcolor;
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 1.2;
+                    text-decoration: none;
+                }
+                .meta {
+                    color: $metacolor;
+                    margin-bottom: 24px;
+                    font-size: 14px;
+                    a {
+                        text-decoration: none;
+                        color: $colorhover;
+                    }
+                }
+                p {
+                    margin-bottom: 16px;
+                    color: $pcolor;
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+                a {
+                    text-decoration: none;
+                    font-size: 16px;
+                    margin-bottom: 16px;
+                    color: $colorhover;
+                }
+            }
+        }        
+    }
+}

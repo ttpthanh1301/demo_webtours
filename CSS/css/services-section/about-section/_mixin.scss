@@ -1,0 +1,71 @@
+@import "CSS/css/services-section/about-section/_variable.scss";
+#about-section.site-section {
+    .align-items-lg-center {
+        display: flex;
+        flex-direction: row;
+        margin: 0px 180px;
+        .mb-5 {
+            padding: 0px 15px;
+            width: 67%;
+            img {
+                max-width: 100%;
+            }
+            .experience {
+                background-color: $bgcolorthree;
+                position: absolute;
+                padding:20px;
+                bottom: -10px;
+                right: -10px;
+                display: block;
+                .year {
+                    color: $h2color;
+                    font-size: 48px;
+                    font-weight: 900;
+                    letter-spacing: normal;
+                    line-height: 1.2;
+                }
+                .caption {
+                    color:$bgcolorone;
+                    text-transform: uppercase;
+                    
+                }
+            }
+        }
+        .ml-auto {
+            width: 25%;
+            margin-left: 95px;
+            padding: 0px 15px;
+            h3 {
+                color: $h3color;
+                margin-bottom: 18px;
+                font-size: 13px;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+            h2 {
+                color: $textcolor;
+                margin-bottom: 16px;
+                font-size: 40px;
+                font-weight: 900;
+            }
+            p {
+                .mb-4 {
+                    color:$pcolor;
+                    margin-bottom: 24px;
+                }
+                a {
+                    border : solid 2px $textcolor;
+                    font-size:12px;
+                    font-weight: 900;
+                    padding: 6px 20px;
+                    background-color: $textcolor;
+                    color:$textcolorone;
+                    &:hover {
+                        background-color: $textcolorone;
+                        color:$textcolor;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+@import "CSS/css/team-section/_variable.scss";
+.border-bottom {
+    .text-center {
+        h3 {
+            font-size: 14px;
+            color: $h3color;
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-bottom:8px;
+        }
+        h2 {
+            font-size: 40px;
+            font-weight: 900;
+            color : $textcolor;
+            margin-bottom: 16px;
+        }
+        }
+    .person-center {
+        display: flex;
+        margin-left: 180px;
+        margin-right: 180px;
+        .mb-lg-0 {
+            padding: 0px 15px;
+            .person {
+                img {
+                    width: 75% !important;
+                    margin-bottom: 16px;
+                }
+                h3 {
+                    color: $pcolor;
+                    margin-bottom:8px;
+                    font-weight: 500;
+                    line-height: 1.2;
+                }
+                .position {
+                    color: $cocolor;
+                    font-size:12px;
+                    text-transform: uppercase;
+                    margin-bottom: 16px;
+                }
+                .mb-4 {
+                    margin-bottom: 24px;
+                    font-size: 16px;
+                    color: $pcolor;
+                }
+                .ul-social-circle {
+                    li {
+                        display: inline-block;
+                        a {
+                            color: $pcolor;
+                            font-size: 30px;
+                            width: 30px;
+                            height: 30px;
+                            text-align: center;
+                            line-height: 30px;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

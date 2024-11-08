@@ -1,0 +1,32 @@
+@import url("CSS/css/menu.scss/_variable.scss");
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: $bgcolortwo;
+    justify-content: space-around;
+    align-items: center;
+    .text-left {
+        ul {
+            margin-left: -120px;
+            li {
+                display:inline-block;
+                a {
+                text-decoration: none; 
+                color: $colorhover;
+                    span {
+                        color: $textcolor;
+                        font-size:40px;
+                    }
+                }
+            }
+        }
+    }
+        .mb-0 {
+            margin-right: -120px;
+            span {
+                margin-right: 16px;
+                color: $textcolor;
+                font-size: 16px;
+            }
+        }
+}
